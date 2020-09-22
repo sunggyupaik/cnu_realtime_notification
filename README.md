@@ -14,18 +14,13 @@ crwals bachelor, notice, project, job 4 boards every 10 seconds. when title is c
 telegram_token = 'input your telegram_token'
 telegram_chat_id = 'input your chat_id'
 ```
+|/|telegram token|telegram chat_id|
+|------|------|------|
+|find chatbot|enters in BotFather|enters in get_id_bot|
+|chat words|input /newbot, yourname, botname |input /my_id |
+|get|telegram token|telegram chat_id|
 
-### telegram token  
-1. enters in BotFather  
-2. input /newbot, yourname, *bot  
-3. get telegram token  
-<br/><br/>
-### telegram chat_id  
-1. enters in get_id_bot  
-2. input /my_id  
-3. get telegram chat_id  
-<br/><br/>
-2. install libraries in EC2 and execute  
+2. install libraries in server and execute ( in my case AWS EC2 )
 
 ```linux
 $sudo apt-get update
