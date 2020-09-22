@@ -28,3 +28,7 @@ $sudo apt-get install python3-pip
 $pip3 install requests bs4 python-telegram-bot apscheduler
 $nohup python3 cnu_realtime_notification.py & 
 ```
+
+# To Do
+- try to input mutiple tokens
+- make service with token and chat_id of Customers
